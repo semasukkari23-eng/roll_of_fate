@@ -1,6 +1,6 @@
 import pygame
 pygame.mixer.init()
-pygame.mixer.music.load(r"C:\Users\semas\Downloads\the-magic-tree-150606-VEED.mp3")
+pygame.mixer.music.load("assets/sound.mp3")
 pygame.mixer.music.play()
 
 while pygame.mixer.music.get_busy():
